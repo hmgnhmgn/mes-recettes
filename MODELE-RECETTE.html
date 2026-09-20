@@ -3,96 +3,54 @@
 <head>
   <meta charset="UTF-8">
 
-  <title>{{TITRE}}</title>
+  <title>NOM DE LA RECETTE</title>
 
   <meta name="description"
-        content="{{DESCRIPTION}}">
+        content="DESCRIPTION DE LA RECETTE">
 
   <meta property="og:title"
-        content="{{TITRE}}">
+        content="NOM DE LA RECETTE">
 
   <meta property="og:description"
-        content="{{DESCRIPTION}}">
+        content="DESCRIPTION DE LA RECETTE">
 
   <meta property="og:image"
-        content="{{URL_IMAGE}}">
+        content="https://hmgnhmgn.github.io/mes-recettes/NOM-DE-L-IMAGE.png">
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Recipe",
-    "name": "{{TITRE}}",
+    "name": "NOM DE LA RECETTE",
     "image": [
-      "{{URL_IMAGE}}"
+      "https://hmgnhmgn.github.io/mes-recettes/NOM-DE-L-IMAGE.png"
     ],
-    "description": "{{DESCRIPTION}}",
-    "recipeYield": "{{NOMBRE_PERSONNES}} personnes",
-    "prepTime": "PT{{PREPARATION_MIN}}M",
-    "cookTime": "PT{{CUISSON_MIN}}M",
-    "totalTime": "PT{{TOTAL_MIN}}M",
-    "calories": "{{CALORIES}}",
+    "description": "DESCRIPTION DE LA RECETTE",
+    "recipeYield": "NOMBRE DE PERSONNES personnes",
+    "prepTime": "PTXXM",
+    "cookTime": "PTXXM",
+    "totalTime": "PTXXM",
+    "calories": "XXX kcal par personne",
     "recipeIngredient": [
-      "{{INGREDIENT_1}}",
-      "{{INGREDIENT_2}}",
-      "{{INGREDIENT_3}}",
-      "{{INGREDIENT_4}}",
-      "{{INGREDIENT_5}}",
-      "{{INGREDIENT_6}}",
-      "{{INGREDIENT_7}}",
-      "{{INGREDIENT_8}}",
-      "{{INGREDIENT_9}}",
-      "{{INGREDIENT_10}}"
+      "INGRÉDIENT 1",
+      "INGRÉDIENT 2",
+      "INGRÉDIENT 3"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Étape 1",
-        "text": "{{ETAPE_1}}"
+        "text": "INSTRUCTIONS ÉTAPE 1"
       },
       {
         "@type": "HowToStep",
         "name": "Étape 2",
-        "text": "{{ETAPE_2}}"
+        "text": "INSTRUCTIONS ÉTAPE 2"
       },
       {
         "@type": "HowToStep",
         "name": "Étape 3",
-        "text": "{{ETAPE_3}}"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Étape 4",
-        "text": "{{ETAPE_4}}"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Étape 5",
-        "text": "{{ETAPE_5}}"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Étape 6",
-        "text": "{{ETAPE_6}}"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Étape 7",
-        "text": "{{ETAPE_7}}"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Étape 8",
-        "text": "{{ETAPE_8}}"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Étape 9",
-        "text": "{{ETAPE_9}}"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Étape 10",
-        "text": "{{ETAPE_10}}"
+        "text": "INSTRUCTIONS ÉTAPE 3"
       }
     ]
   }
@@ -103,60 +61,63 @@
 
 <article itemscope itemtype="https://schema.org/Recipe">
 
-  <h1 itemprop="name">{{TITRE}}</h1>
+  <h1 itemprop="name">NOM DE LA RECETTE</h1>
 
   <img
-    src="{{URL_IMAGE}}"
-    alt="{{TITRE}}"
+    src="https://hmgnhmgn.github.io/mes-recettes/NOM-DE-L-IMAGE.png"
+    alt="NOM DE LA RECETTE"
     itemprop="image"
     style="max-width:100%; height:auto;"
   >
 
   <p itemprop="description">
-    {{DESCRIPTION}}
+    DESCRIPTION DE LA RECETTE
   </p>
 
   <p>
     <strong>Préparation :</strong>
-    <time itemprop="prepTime" datetime="PT{{PREPARATION_MIN}}M">
-      {{PREPARATION_MIN}} min
+    <time itemprop="prepTime" datetime="PTXXM">
+      XX min
     </time>
   </p>
 
   <p>
     <strong>Cuisson :</strong>
-    <time itemprop="cookTime" datetime="PT{{CUISSON_MIN}}M">
-      {{CUISSON_MIN}} min
+    <time itemprop="cookTime" datetime="PTXXM">
+      XX min
     </time>
   </p>
 
   <p>
     <strong>Personnes :</strong>
     <span itemprop="recipeYield">
-      {{NOMBRE_PERSONNES}} personnes
+      XX personnes
     </span>
   </p>
 
   <p>
     <strong>Calories :</strong>
-    <span itemprop="nutrition">
-      {{CALORIES}}
+    <span>
+      XXX kcal par personne
     </span>
   </p>
 
   <h2>Ingrédients</h2>
 
   <ul>
-    <li itemprop="recipeIngredient">{{INGREDIENT_1}}</li>
-    <li itemprop="recipeIngredient">{{INGREDIENT_2}}</li>
-    <li itemprop="recipeIngredient">{{INGREDIENT_3}}</li>
-    <li itemprop="recipeIngredient">{{INGREDIENT_4}}</li>
-    <li itemprop="recipeIngredient">{{INGREDIENT_5}}</li>
-    <li itemprop="recipeIngredient">{{INGREDIENT_6}}</li>
-    <li itemprop="recipeIngredient">{{INGREDIENT_7}}</li>
-    <li itemprop="recipeIngredient">{{INGREDIENT_8}}</li>
-    <li itemprop="recipeIngredient">{{INGREDIENT_9}}</li>
-    <li itemprop="recipeIngredient">{{INGREDIENT_10}}</li>
+
+    <li itemprop="recipeIngredient">
+      INGRÉDIENT 1
+    </li>
+
+    <li itemprop="recipeIngredient">
+      INGRÉDIENT 2
+    </li>
+
+    <li itemprop="recipeIngredient">
+      INGRÉDIENT 3
+    </li>
+
   </ul>
 
   <h2>Préparation</h2>
@@ -165,52 +126,23 @@
 
     <div>
       <h3>Étape 1</h3>
-      <p>{{ETAPE_1}}</p>
+      <p>
+        INSTRUCTIONS ÉTAPE 1
+      </p>
     </div>
 
     <div>
       <h3>Étape 2</h3>
-      <p>{{ETAPE_2}}</p>
+      <p>
+        INSTRUCTIONS ÉTAPE 2
+      </p>
     </div>
 
     <div>
       <h3>Étape 3</h3>
-      <p>{{ETAPE_3}}</p>
-    </div>
-
-    <div>
-      <h3>Étape 4</h3>
-      <p>{{ETAPE_4}}</p>
-    </div>
-
-    <div>
-      <h3>Étape 5</h3>
-      <p>{{ETAPE_5}}</p>
-    </div>
-
-    <div>
-      <h3>Étape 6</h3>
-      <p>{{ETAPE_6}}</p>
-    </div>
-
-    <div>
-      <h3>Étape 7</h3>
-      <p>{{ETAPE_7}}</p>
-    </div>
-
-    <div>
-      <h3>Étape 8</h3>
-      <p>{{ETAPE_8}}</p>
-    </div>
-
-    <div>
-      <h3>Étape 9</h3>
-      <p>{{ETAPE_9}}</p>
-    </div>
-
-    <div>
-      <h3>Étape 10</h3>
-      <p>{{ETAPE_10}}</p>
+      <p>
+        INSTRUCTIONS ÉTAPE 3
+      </p>
     </div>
 
   </div>
