@@ -2,19 +2,32 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+
   <title>Quichezza chèvre</title>
 
-  <meta name="description" content="Quichezza chèvre au Thermomix pour 6 personnes.">
+  <meta name="description"
+        content="Quichezza chèvre au Thermomix pour 6 personnes. Préparation 20 minutes, cuisson 25 minutes.">
+
+  <meta property="og:title" content="Quichezza chèvre">
+  <meta property="og:description"
+        content="Quichezza chèvre au Thermomix pour 6 personnes.">
+  <meta property="og:image"
+        content="https://hmgnhmgn.github.io/mes-recettes/quichezza-chevre.png">
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Quichezza chèvre",
+    "image": [
+      "https://hmgnhmgn.github.io/mes-recettes/quichezza-chevre.png"
+    ],
+    "description": "Quiche façon pizza au chèvre, bacon et crème d’amande, préparée au Thermomix.",
     "recipeYield": "6 personnes",
     "prepTime": "PT20M",
     "cookTime": "PT25M",
     "totalTime": "PT45M",
+    "calories": "298 kcal par personne",
     "recipeIngredient": [
       "1 pâte à pizza",
       "2 bûches de chèvre allégées",
@@ -30,35 +43,48 @@
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "text": "Préchauffer le four à 180 °C."
+        "name": "Préchauffez le four",
+        "text": "Préchauffez le four à 180 °C en chaleur tournante, thermostat 6."
       },
       {
         "@type": "HowToStep",
-        "text": "Préparer l’oignon, les lardons de volaille et le bacon."
+        "name": "Préparez l’oignon",
+        "text": "Épluchez l’oignon et coupez-le en deux. Mettez-le dans le bol du Thermomix. Mixez 5 secondes à vitesse 5. Raclez les parois du bol avec la spatule."
       },
       {
         "@type": "HowToStep",
-        "text": "Couper les bûches de chèvre en rondelles."
+        "name": "Faites revenir l’oignon",
+        "text": "Ajoutez les lardons de volaille et le bacon coupé en petits morceaux. Faites revenir 5 minutes à 120 °C, vitesse 1, sans le gobelet doseur."
       },
       {
         "@type": "HowToStep",
-        "text": "Déposer la pâte à pizza dans un moule et disposer le chèvre sur les bords."
+        "name": "Préparez les fromages",
+        "text": "Pendant ce temps, coupez les bûches de chèvre en rondelles."
       },
       {
         "@type": "HowToStep",
-        "text": "Mélanger les œufs et la crème d’amande. Saler et poivrer."
+        "name": "Préparez la croûte",
+        "text": "Dans un moule à tarte, déposez la pâte à pizza. Disposez les rondelles de fromage tout autour en les faisant se chevaucher légèrement. Réalisez une croûte de pâte bien relevée sur les bords pour contenir la garniture."
       },
       {
         "@type": "HowToStep",
-        "text": "Répartir la garniture au centre de la pâte puis verser le mélange œufs-crème."
+        "name": "Préparez l’appareil",
+        "text": "Dans le bol du Thermomix, ajoutez les œufs, la crème d’amande, le sel et le poivre. Mélangez 15 secondes à vitesse 4."
       },
       {
         "@type": "HowToStep",
-        "text": "Saupoudrer d’origan."
+        "name": "Garnissez",
+        "text": "Au centre de la pâte, répartissez le mélange oignon, lardons et bacon. Versez par-dessus le mélange œufs et crème d’amande."
       },
       {
         "@type": "HowToStep",
-        "text": "Cuire 25 minutes à 180 °C."
+        "name": "Assaisonnez",
+        "text": "Saupoudrez d’origan selon votre goût."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Enfournez",
+        "text": "Enfournez pour 25 minutes à 180 °C en chaleur tournante, jusqu’à ce que la pâte soit bien dorée et croustillante."
       }
     ]
   }
@@ -71,13 +97,16 @@
 
   <h1 itemprop="name">Quichezza chèvre</h1>
 
-  <p>
-    Une quiche façon pizza au chèvre, bacon et crème d’amande.
-  </p>
+  <img
+    src="quichezza-chevre.png"
+    alt="Quichezza chèvre"
+    itemprop="image"
+    style="max-width:100%; height:auto;"
+  >
 
-  <p>
-    <strong>Pour :</strong>
-    <span itemprop="recipeYield">6 personnes</span>
+  <p itemprop="description">
+    Quiche façon pizza au chèvre, bacon et crème d’amande,
+    préparée au Thermomix.
   </p>
 
   <p>
@@ -88,6 +117,18 @@
   <p>
     <strong>Cuisson :</strong>
     <time itemprop="cookTime" datetime="PT25M">25 min</time>
+  </p>
+
+  <p>
+    <strong>Personnes :</strong>
+    <span itemprop="recipeYield">6 personnes</span>
+  </p>
+
+  <p>
+    <strong>Calories :</strong>
+    <span itemprop="nutrition">
+      298 kcal par personne
+    </span>
   </p>
 
   <h2>Ingrédients</h2>
@@ -109,44 +150,80 @@
 
   <div itemprop="recipeInstructions">
 
-    <div itemprop="recipeInstructions">
-      <h3>Étape 1</h3>
-      <p>Préchauffez le four à 180 °C.</p>
+    <div>
+      <h3>Étape 1 — Préchauffez le four</h3>
+      <p>
+        Préchauffez le four à 180 °C en chaleur tournante, thermostat 6.
+      </p>
     </div>
 
-    <div itemprop="recipeInstructions">
-      <h3>Étape 2</h3>
-      <p>Préparez l’oignon, les lardons de volaille et le bacon.</p>
+    <div>
+      <h3>Étape 2 — Préparez l’oignon</h3>
+      <p>
+        Épluchez l’oignon et coupez-le en deux.
+        Mettez-le dans le bol du Thermomix.
+        Mixez 5 secondes à vitesse 5.
+        Raclez les parois du bol avec la spatule.
+      </p>
     </div>
 
-    <div itemprop="recipeInstructions">
-      <h3>Étape 3</h3>
-      <p>Coupez les bûches de chèvre en rondelles.</p>
+    <div>
+      <h3>Étape 3 — Faites revenir l’oignon</h3>
+      <p>
+        Ajoutez les lardons de volaille et le bacon coupé en petits morceaux.
+        Faites revenir 5 minutes à 120 °C, vitesse 1, sans le gobelet doseur.
+      </p>
     </div>
 
-    <div itemprop="recipeInstructions">
-      <h3>Étape 4</h3>
-      <p>Déposez la pâte à pizza dans un moule et disposez le chèvre sur les bords.</p>
+    <div>
+      <h3>Étape 4 — Préparez les fromages</h3>
+      <p>
+        Pendant ce temps, coupez les bûches de chèvre en rondelles.
+      </p>
     </div>
 
-    <div itemprop="recipeInstructions">
-      <h3>Étape 5</h3>
-      <p>Mélangez les œufs et la crème d’amande. Salez et poivrez.</p>
+    <div>
+      <h3>Étape 5 — Préparez la croûte</h3>
+      <p>
+        Dans un moule à tarte, déposez la pâte à pizza.
+        Disposez les rondelles de fromage tout autour en les faisant
+        se chevaucher légèrement.
+        Réalisez une croûte de pâte bien relevée sur les bords
+        pour contenir la garniture.
+      </p>
     </div>
 
-    <div itemprop="recipeInstructions">
-      <h3>Étape 6</h3>
-      <p>Répartissez la garniture au centre de la pâte puis versez le mélange œufs-crème.</p>
+    <div>
+      <h3>Étape 6 — Préparez l’appareil</h3>
+      <p>
+        Dans le bol du Thermomix, ajoutez les œufs,
+        la crème d’amande, le sel et le poivre.
+        Mélangez 15 secondes à vitesse 4.
+      </p>
     </div>
 
-    <div itemprop="recipeInstructions">
-      <h3>Étape 7</h3>
-      <p>Saupoudrez d’origan.</p>
+    <div>
+      <h3>Étape 7 — Garnissez</h3>
+      <p>
+        Au centre de la pâte, répartissez le mélange oignon,
+        lardons et bacon.
+        Versez par-dessus le mélange œufs et crème d’amande.
+      </p>
     </div>
 
-    <div itemprop="recipeInstructions">
-      <h3>Étape 8</h3>
-      <p>Enfournez pendant 25 minutes à 180 °C.</p>
+    <div>
+      <h3>Étape 8 — Assaisonnez</h3>
+      <p>
+        Saupoudrez d’origan selon votre goût.
+      </p>
+    </div>
+
+    <div>
+      <h3>Étape 9 — Enfournez</h3>
+      <p>
+        Enfournez pour 25 minutes à 180 °C en chaleur tournante,
+        jusqu’à ce que la pâte soit bien dorée et croustillante.
+      </p>
     </div>
 
   </div>
