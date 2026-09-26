@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Soupe de petits pois à la menthe</title>
+
+<meta name="description"
+content="Soupe de petits pois à la menthe au Thermomix, pour 4 personnes.">
+
+<meta property="og:title"
+content="Soupe de petits pois à la menthe">
+
+<meta property="og:description"
+content="Soupe de petits pois à la menthe au Thermomix, pour 4 personnes.">
+
+<meta property="og:image"
+content="soupe-petits-pois-menthe.png">
+
+<style>
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #16323a;
+    margin: 0;
+    padding: 30px;
+}
+
+.recipe {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 25px;
+    color: #12343b;
+}
+
+.hero {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.infos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 35px;
+}
+
+.info {
+    font-size: 18px;
+}
+
+.info strong {
+    display: block;
+    color: #496f3d;
+    margin-bottom: 5px;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 40px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #496f3d;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.ingredients li {
+    font-size: 17px;
+}
+
+.instructions ol {
+    padding-left: 30px;
+}
+
+.instructions li {
+    margin-bottom: 22px;
+    font-size: 17px;
+}
+
+.nutrition {
+    margin-top: 35px;
+    padding: 20px;
+    background: #f2f6eb;
+    border-radius: 12px;
+}
+
+.nutrition h2 {
+    margin-top: 0;
+}
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .columns {
+        grid-template-columns: 1fr;
+    }
+
+    .infos {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="recipe">
+
+<h1>Soupe de petits pois à la menthe</h1>
+
+<img
+class="hero"
+src="soupe-petits-pois-menthe.png"
+alt="Soupe de petits pois à la menthe">
+
+<div class="description">
+Cette recette très simple et rapide à réaliser est typique de la cuisine britannique.
+L'association des petits pois et de la menthe donne une soupe dynamique,
+dont les végétariens raffolent.
+</div>
+
+<div class="infos">
+
+<div class="info">
+<strong>Préparation</strong>
+5 min
+</div>
+
+<div class="info">
+<strong>Cuisson</strong>
+25 min
+</div>
+
+<div class="info">
+<strong>Personnes</strong>
+4 personnes
+</div>
+
+<div class="info">
+<strong>Difficulté</strong>
+Facile
+</div>
+
+</div>
+
+<div class="columns">
+
+<section class="ingredients">
+
+<h2>Ingrédients</h2>
+
+<ul>
+
+<li>80 g d'oignon</li>
+
+<li>30 g de beurre doux ou demi-sel, coupé en dés</li>
+
+<li>500 g de petits pois surgelés</li>
+
+<li>500 g de bouillon de légumes</li>
+
+<li>½ c. à café de sel, à ajuster en fonction des goûts</li>
+
+<li>2 à 3 pincées de poivre noir moulu, à ajuster en fonction des goûts</li>
+
+<li>10 g de feuilles de menthe, et un peu pour la finition</li>
+
+</ul>
+
+</section>
+
+
+<section class="instructions">
+
+<h2>Instructions</h2>
+
+<ol>
+
+<li>
+Mettre l'oignon et le beurre dans le bol du Thermomix,
+puis hacher <strong>5 sec / vitesse 5</strong>.
+Racler les parois du bol à l'aide de la spatule.
+</li>
+
+<li>
+Rissoler <strong>4 min / 120 °C / vitesse 1</strong>,
+sans le gobelet doseur.
+</li>
+
+<li>
+Ajouter les petits pois, le bouillon de légumes,
+le sel et le poivre, puis cuire
+<strong>10 min / 100 °C / vitesse 1</strong>.
+</li>
+
+<li>
+Ajouter les feuilles de menthe et mixer
+<strong>2 min / vitesse 5-8</strong>,
+en augmentant progressivement la vitesse.
+</li>
+
+<li>
+Servir la soupe chaude ou froide,
+garnie de quelques feuilles de menthe.
+</li>
+
+</ol>
+
+</section>
+
+</div>
+
+
+<section class="nutrition">
+
+<h2>Informations nutritionnelles</h2>
+
+<p>
+<strong>144 kcal par portion</strong>
+</p>
+
+<p>
+Protéines : 7 g &nbsp;|&nbsp;
+Glucides : 12 g &nbsp;|&nbsp;
+Lipides : 7 g
+</p>
+
+</section>
+
+</div>
+
+</body>
+</html>
