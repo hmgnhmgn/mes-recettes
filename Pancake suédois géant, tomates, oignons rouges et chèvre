@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pancake suédois géant, tomates, oignons rouges et chèvre</title>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Recipe",
+
+      "name": "Pancake suédois géant, tomates, oignons rouges et chèvre",
+
+      "description": "Un grand pancake suédois salé garni de tomates, d'oignons rouges et de chèvre, servi avec de la roquette.",
+
+      "recipeYield": "4 personnes",
+
+      "prepTime": "PT10M",
+      "cookTime": "PT25M",
+      "totalTime": "PT35M",
+
+      "recipeCategory": "Plat principal",
+
+      "recipeIngredient": [
+        "4 œufs",
+        "750 g de lait",
+        "180 g de farine",
+        "100 g de bûche de chèvre en morceaux",
+        "100 g de bûche de chèvre en rondelles",
+        "1 c. à café de thym",
+        "1 belle pincée de thym",
+        "3 c. à soupe d'huile d'olive",
+        "250 g de tomates cocktail ou cerise coupées en 2",
+        "2 oignons rouges en lamelles",
+        "1 poignée de roquette pour servir",
+        "Sel",
+        "Poivre"
+      ],
+
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "name": "Préparer la pâte",
+          "text": "Préchauffer le four à 220 °C. Dans le bol, mettre les œufs, le lait, la farine, le chèvre en morceaux et 1 c. à café de thym. Saler, poivrer et mélanger 20 sec/vitesse 5."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Précuire la pâte",
+          "text": "Enfourner un plat à four en métal badigeonné d'huile d'olive pour 2 min. Sortir le plat et y verser la pâte. La répartir sur toute la surface et les bords en inclinant le plat et en veillant à ne pas se brûler. La pâte doit atteindre environ 2 à 3 cm de hauteur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Ajouter la garniture",
+          "text": "Répartir les tomates, les oignons et les rondelles de chèvre sur la surface en laissant 2 cm de bords libres tout autour. Parsemer de thym et enfourner pour 25 min."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Servir",
+          "text": "Déguster immédiatement à la sortie du four avec une poignée de roquette."
+        }
+      ]
+    }
+    </script>
+</head>
+
+<body>
+
+    <article itemscope itemtype="https://schema.org/Recipe">
+
+        <h1 itemprop="name">
+            Pancake suédois géant, tomates, oignons rouges et chèvre
+        </h1>
+
+        <p itemprop="description">
+            Un grand pancake suédois salé garni de tomates, d'oignons rouges
+            et de chèvre, servi avec de la roquette.
+        </p>
+
+        <p>
+            <strong>Pour :</strong>
+            <span itemprop="recipeYield">4 personnes</span>
+        </p>
+
+        <p>
+            <strong>Préparation :</strong>
+            <time itemprop="prepTime" datetime="PT10M">10 min</time>
+        </p>
+
+        <p>
+            <strong>Cuisson :</strong>
+            <time itemprop="cookTime" datetime="PT25M">25 min</time>
+        </p>
+
+        <p>
+            <strong>Durée totale :</strong>
+            <time itemprop="totalTime" datetime="PT35M">35 min</time>
+        </p>
+
+        <h2>Ingrédients</h2>
+
+        <ul>
+            <li itemprop="recipeIngredient">4 œufs</li>
+            <li itemprop="recipeIngredient">750 g de lait</li>
+            <li itemprop="recipeIngredient">180 g de farine</li>
+            <li itemprop="recipeIngredient">100 g de bûche de chèvre en morceaux</li>
+            <li itemprop="recipeIngredient">100 g de bûche de chèvre en rondelles</li>
+            <li itemprop="recipeIngredient">1 c. à café de thym + 1 belle pincée</li>
+            <li itemprop="recipeIngredient">3 c. à soupe d'huile d'olive</li>
+            <li itemprop="recipeIngredient">250 g de tomates cocktail ou cerise coupées en 2</li>
+            <li itemprop="recipeIngredient">2 oignons rouges en lamelles</li>
+            <li itemprop="recipeIngredient">1 poignée de roquette pour servir</li>
+            <li itemprop="recipeIngredient">Sel</li>
+            <li itemprop="recipeIngredient">Poivre</li>
+        </ul>
+
+        <h2>Préparation</h2>
+
+        <ol itemprop="recipeInstructions">
+
+            <li>
+                Préchauffer le four à 220 °C. Dans le bol, mettre les œufs,
+                le lait, la farine, le chèvre en morceaux et 1 c. à café de thym.
+                Saler, poivrer et mélanger 20 sec/vitesse 5.
+            </li>
+
+            <li>
+                Enfourner un plat à four en métal badigeonné d'huile d'olive
+                pour 2 min. Sortir le plat et y verser la pâte. La répartir
+                sur toute la surface et les bords en inclinant le plat et en
+                veillant à ne pas se brûler. La pâte doit atteindre environ
+                2 à 3 cm de hauteur.
+            </li>
+
+            <li>
+                Répartir les tomates, les oignons et les rondelles de chèvre
+                sur la surface en laissant 2 cm de bords libres tout autour.
+                Parsemer de thym et enfourner pour 25 min.
+            </li>
+
+            <li>
+                Déguster immédiatement à la sortie du four avec une poignée
+                de roquette.
+            </li>
+
+        </ol>
+
+    </article>
+
+</body>
+</html>
