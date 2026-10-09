@@ -1,0 +1,121 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot-dogs de rougail saucisse</title>
+  <meta name="description" content="Une recette express de hot-dogs aux saveurs du rougail saucisse, avec une sauce tomate épicée et des garnitures gourmandes.">
+  <meta property="og:title" content="Hot-dogs de rougail saucisse">
+  <meta property="og:description" content="Hot-dogs maison au rougail saucisse pour 4 personnes.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Hot-dogs de rougail saucisse",
+    "description": "Des hot-dogs gourmands garnis de saucisses de Strasbourg dans une sauce tomate parfumée au gingembre, à l'ail et au piment.",
+    "recipeYield": "4 personnes",
+    "prepTime": "PT5M",
+    "cookTime": "PT20M",
+    "totalTime": "PT25M",
+    "recipeCategory": "Plat principal",
+    "recipeIngredient": [
+      "2 cuillères à soupe d'huile d'olive",
+      "1 oignon",
+      "3 gousses d'ail",
+      "4 cm de gingembre frais",
+      "1 piment vert",
+      "1 boîte de tomates concassées",
+      "2 cuillères à soupe de sucre en poudre",
+      "4 saucisses de Strasbourg",
+      "4 pains à hot-dog",
+      "1 sucrine",
+      "1 oignon rouge",
+      "Cheddar râpé",
+      "Moutarde",
+      "Citron vert"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "Émincer l'oignon, hacher l'ail et râper le gingembre frais. Épépiner le piment vert et le couper en morceaux."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Dans le Cookeo, en mode Dorer, faire revenir l'oignon, l'ail et le gingembre dans l'huile d'olive. Ajouter le piment, les tomates concassées et le sucre."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Lancer le mode Sous pression pendant 10 minutes, puis passer en mode Maintien au chaud. Ajouter les saucisses et poursuivre pendant 5 minutes."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Garnir les pains à hot-dog avec la sauce aux saucisses, quelques feuilles de sucrine, de l'oignon rouge et du cheddar râpé. Ajouter de la moutarde et du jus de citron vert selon le goût."
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <article itemscope itemtype="https://schema.org/Recipe">
+    <h1 itemprop="name">Hot-dogs de rougail saucisse</h1>
+
+    <p itemprop="description">
+      Des hot-dogs gourmands aux saveurs du rougail saucisse,
+      avec une sauce tomate parfumée au gingembre et à l'ail.
+    </p>
+
+    <meta itemprop="prepTime" content="PT5M">
+    <meta itemprop="cookTime" content="PT20M">
+    <meta itemprop="totalTime" content="PT25M">
+    <meta itemprop="recipeYield" content="4 personnes">
+    <meta itemprop="recipeCategory" content="Plat principal">
+
+    <h2>Ingrédients</h2>
+    <ul>
+      <li itemprop="recipeIngredient">2 cuillères à soupe d'huile d'olive</li>
+      <li itemprop="recipeIngredient">1 oignon</li>
+      <li itemprop="recipeIngredient">3 gousses d'ail</li>
+      <li itemprop="recipeIngredient">4 cm de gingembre frais</li>
+      <li itemprop="recipeIngredient">1 piment vert</li>
+      <li itemprop="recipeIngredient">1 boîte de tomates concassées</li>
+      <li itemprop="recipeIngredient">2 cuillères à soupe de sucre en poudre</li>
+      <li itemprop="recipeIngredient">4 saucisses de Strasbourg</li>
+      <li itemprop="recipeIngredient">4 pains à hot-dog</li>
+      <li itemprop="recipeIngredient">1 sucrine</li>
+      <li itemprop="recipeIngredient">1 oignon rouge</li>
+      <li itemprop="recipeIngredient">Cheddar râpé</li>
+      <li itemprop="recipeIngredient">Moutarde</li>
+      <li itemprop="recipeIngredient">Citron vert</li>
+    </ul>
+
+    <h2>Préparation</h2>
+    <ol>
+      <li itemprop="recipeInstructions">
+        Émincer l'oignon, hacher l'ail et râper le gingembre frais.
+        Épépiner le piment vert et le couper en morceaux.
+      </li>
+      <li itemprop="recipeInstructions">
+        Dans le Cookeo, en mode Dorer, faire revenir l'oignon,
+        l'ail et le gingembre dans l'huile d'olive. Ajouter le piment,
+        les tomates concassées et le sucre.
+      </li>
+      <li itemprop="recipeInstructions">
+        Lancer le mode Sous pression pendant 10 minutes, puis passer
+        en mode Maintien au chaud. Ajouter les saucisses et poursuivre
+        pendant 5 minutes.
+      </li>
+      <li itemprop="recipeInstructions">
+        Garnir les pains à hot-dog avec la sauce aux saucisses,
+        quelques feuilles de sucrine, de l'oignon rouge et du cheddar
+        râpé. Ajouter de la moutarde et du jus de citron vert selon le goût.
+      </li>
+    </ol>
+
+    <p><em>Astuce : délicieux, même sans piment !</em></p>
+  </article>
+</body>
+</html>
+```
